@@ -1,0 +1,52 @@
+body {
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+}
+video {
+    position: fixed;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+h1 {
+    font-family: "Bitter", sans-serif;
+    font-size: 50px;
+}
+#intro {
+    position: fixed;
+    top: 25%;
+    left: 10%;
+}
+nav { 
+    position: relative;
+    float: right;
+    text-align: right;
+    margin-top: 5%;
+}
+nav icon {
+    position: relative;
+    left: -3px;
+}
+a {
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: lightcoral;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+#crow {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+@media only screen and (max-height: 350px) {
+    #crow {display: none;}
+ }
