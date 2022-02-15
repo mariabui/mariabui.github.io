@@ -1,7 +1,7 @@
 body {
     color: white;
     font-family: "Manrope", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 video {
     position: fixed;
@@ -27,6 +27,7 @@ nav {
     float: right;
     text-align: right;
     margin-top: 5%;
+    font-size: 20px;
 }
 nav icon {
     position: relative;
@@ -46,7 +47,9 @@ a:link, a:visited, a:active {
     position: fixed;
     left: 10px;
     bottom: 10px;
+    font-size: 50px;
 }
-@media only screen and (max-height: 350px) {
+@media only screen and (max-height: 500px) {
     #crow {display: none;}
+    #courses {display: none;}
  }
